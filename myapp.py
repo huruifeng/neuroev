@@ -13,11 +13,9 @@ st.set_page_config(
 ############################################
 
 import home
-
-import pages.home as home
-import pages.expression as expression
-import pages.cluster as cluster
-import pages.de as de
+import expression
+import cluster
+import de
 
 
 
