@@ -11,7 +11,7 @@ import scipy.spatial as sp, scipy.cluster.hierarchy as hc
 import pickle
 
 from matplotlib import cm
-from .func.plotly_3dlines import plot_cluster3D
+from func.plotly_3dlines import plot_cluster3D
 
 cluster_data_file = "data/mfuzz_cluster_centers_100.txt"
 EV_data_file = "data/EV_gene_expr_avg_8points_gt001.tsv"
