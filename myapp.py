@@ -12,10 +12,10 @@ st.set_page_config(
 )
 ############################################
 
-import interfaces.home
-import interfaces.expression
-import interfaces.cluster
-import interfaces.de
+import pages.home
+import pages.expression
+import pages.cluster
+import pages.de
 
 
 ## Functins / Style
@@ -41,10 +41,10 @@ def local_image(url):
     return data_url
 
 PAGES = {
-    "Home": interfaces.home,
-    "Expression Data": interfaces.expression,
-    "Gene Clusters": interfaces.cluster,
-    "DE Analysis": interfaces.de,
+    "Home": pages.home,
+    "Expression Data": pages.expression,
+    "Gene Clusters": pages.cluster,
+    "DE Analysis": pages.de
 }
 
 ##================================================================
