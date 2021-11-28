@@ -12,10 +12,10 @@ st.set_page_config(
 )
 ############################################
 
-import pages.home
-import pages.expression
-import pages.cluster
-import pages.de
+import .pages.home
+import .pages.expression
+import .pages.cluster
+import .pages.de
 
 
 ## Functins / Style
