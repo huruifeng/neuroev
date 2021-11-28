@@ -1,0 +1,9 @@
+streamlit
+pandas
+scipy
+numpy
+pickle
+matplotlib
+seaborn
+plotly
+base64
